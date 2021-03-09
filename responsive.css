@@ -1,0 +1,46 @@
+.body {
+    background-color: burlywood;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.2em;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 2%;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: black;
+    box-shadow: 2px 2px 5px rgb(109, 98, 98), -1px -1px 2px rgb(83, 69, 69);
+}
+
+.back-btn:active {
+    transform: translate(1px, 1px);
+}
+
+@media only screen and (max-width: 400px) {
+    .body {
+        background-color: aqua;
+    }
+
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 1em;
+    }
+}
+
+/*rule of cascade your second rule overrides the first*/
+.body {
+    background-color: darkgray;
+    /* would make it red for all screen size */
+}
