@@ -356,3 +356,18 @@ svg {
 .news-container:nth-last-child(1){
     border-bottom: none;
 }
+
+.back-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 2%;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: var(--hoverBlue);
+    box-shadow: 2px 2px 5px  var(--hoverBlue), -1px -1px 2px var(--hoverBlue);
+}
+
+.back-btn:active {
+    transform: translate(1px, 1px);
+}
