@@ -107,6 +107,7 @@ svg {
     font-size: 0.7em;
     align-self: flex-end;
     width: 80%;
+    cursor: pointer;
 }
 
 .logo-dp {
@@ -114,6 +115,7 @@ svg {
     border-radius: 50%;
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
 
 #display-name {
@@ -207,6 +209,7 @@ svg {
     display: flex;
     height: 60%;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .svg-container>svg {
