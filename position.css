@@ -34,10 +34,18 @@
     background-color: rgb(240, 122, 122);
     font-weight: bold;
     color: white;
-    padding: 0.2em;
+    padding: 0.045em;
     position: absolute;
     top: 3%;
     left:0;
+}
+.float-new::after{
+    content: "";
+    position: absolute;
+    border-width: 8px 8px 9px 8px;
+    top: 0;
+    border-style: solid;
+    border-color: rgb(240, 122, 122,0.8) transparent rgb(240, 122, 122,0.8) rgb(240, 122, 122);
 }
 
 .price{
