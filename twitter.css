@@ -21,6 +21,10 @@ svg {
     fill: var(--white);
 }
 
+#tweet-mob {
+    display: none;
+}
+
 .twitter-design {
     display: grid;
     grid-template-columns: 0.8fr 1.8fr 1.1fr;
@@ -341,7 +345,7 @@ svg {
     cursor: pointer;
     display: grid;
     grid-template-areas: "category more"
-    "title more";
+        "title more";
     grid-template-columns: 4fr 1fr;
     row-gap: 0.2rem;
     border-bottom: 1px solid var(--grey);
@@ -351,12 +355,12 @@ svg {
     background-color: var(--hoverLightBlack);
 }
 
-.news-container:hover:nth-last-child(1){
+.news-container:hover:nth-last-child(1) {
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
 }
 
-.news-container:nth-last-child(1){
+.news-container:nth-last-child(1) {
     border-bottom: none;
 }
 
@@ -368,7 +372,7 @@ svg {
     border-radius: 50%;
     padding: 0.5rem;
     background-color: var(--hoverBlue);
-    box-shadow: 2px 2px 5px  var(--hoverBlue), -1px -1px 2px var(--hoverBlue);
+    box-shadow: 2px 2px 5px var(--hoverBlue), -1px -1px 2px var(--hoverBlue);
 }
 
 .back-btn:active {
