@@ -1,0 +1,57 @@
+@media screen and (max-width:1080px) {
+    .twitter-design {
+        width: 95%;
+    }
+    .nav-txt,
+    .nav-footer>#handle-name,
+    .nav-footer>#display-name,
+    .nav-footer>#btn-more,
+    #btn-tweet {
+        display: none;
+    }
+
+    #tweet-mob {
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        padding: 0.4rem 0.6rem;
+        background-color: var(--blue);
+        width: 30%;
+    }
+
+    .twitter-design {
+        display: grid;
+        grid-template-columns: 0.2fr 2fr 1.1fr;
+    }
+
+    .nav-logo,
+    .twitter-logo {
+        width: 80%;
+        height: auto;
+    }
+    .nav-footer{
+        display: block;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sec-news{
+        display: none;
+    }
+    .twitter-design {
+        display: grid;
+        grid-template-columns: 0.3fr 4fr;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .nav{
+        display: none;
+    }
+    .twitter-design {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 0.7em;
+    }
+}
