@@ -32,7 +32,7 @@ hr {
     padding: 0.7rem;
 }
 
-.nav-list>li {
+.nav-list>li, .list-item-inline {
     display: inline;
     font-weight: bold;
     font-size: 0.78em;
@@ -196,4 +196,22 @@ hr {
 
 .back-btn:active {
     transform: translate(1px, 1px);
+}
+
+.footer{
+    background-color: var(--darkmode);
+    color:var(--lightgrey);
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.link{
+    font-size: 1.3em;
+    color: var(--whitegrey)
+}
+
+@media screen and (max-width: 768px){
+    .sec-one,.sec-two,.sec-three {
+        grid-template-columns: 1fr;
+    }   
 }
